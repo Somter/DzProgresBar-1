@@ -14,7 +14,7 @@ namespace DzProgresBar_1
         private ManualResetEvent event_for_stop2 = new ManualResetEvent(false);
         private Thread secondThread;
 
-        private ManualResetEvent event_for_suspend3 = new ManualResetEvent(true);
+        private ManualResetEvent event_for_suspend3 = new ManualResetEvent(true); 
         private ManualResetEvent event_for_stop3 = new ManualResetEvent(false);
         private Thread thirdThread;
 
